@@ -15,9 +15,7 @@ In this assignment, I used my knowledge of machine learning and neural networks 
 ### Data Preprocessing
 - The variable/column 'IS_SUCCESSFUL' is considered the target for our model
 
-- The columns 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'STATUS', 'INCOME_AMT', 'SPECIAL_CONSIDERATIONS', and 'ASK_AMT' are the features for our model. 
-
-When optimizing the model I decided to try the neural network with the 'SPECIAL_CONSIDERATIONS' column dropped. In these cases this would no longer be a feature.
+- The columns 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'STATUS', 'INCOME_AMT', 'SPECIAL_CONSIDERATIONS', and 'ASK_AMT' are the features for our model. When optimizing the model I decided to try the neural network with the 'SPECIAL_CONSIDERATIONS' column dropped. In these cases this would no longer be a feature.
 
 - The variables 'EIN' and 'NAME' are neither targets nor features, and should be removed from the input data.
 
